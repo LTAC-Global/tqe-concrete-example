@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="sts_generated_schema_2025.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<sts id="Legal_documents">
+    <section name="A.1. Source-content information">
+        <parameter number="1" name="Source language characteristics">
+            <subparameter xml:id="sourceLanguage" number="1a" name="Source Language" status="accepted" importance="high">
+                <value>fr-FR</value>
+            </subparameter>
+            <subparameter xml:id="textType" number="1b" name="Text Type" status="accepted" importance="normal">
+                <value>legal</value>
+            </subparameter>
+            <subparameter xml:id="sourceAudience" number="1c" name="Source Audience" status="accepted" importance="normal">
+                <value>Unknown</value>
+            </subparameter>
+            <subparameter xml:id="sourcePurpose" number="1d" name="Source purpose" status="accepted" importance="normal">
+                <value>Discuss several aspects of Europena Union law</value>
+            </subparameter>
+        </parameter>
+        <parameter number="2" name="Specialized language">
+            <subparameter xml:id="subjectField" number="2a" name="Subject field" status="accepted" importance="high">
+                <value>Legal</value>
+                <value>European Union</value>
+            </subparameter>
+            <subparameter xml:id="sourceTerminology" number="2b" name="Terminology" status="accepted" importance="normal">
+                <value>Unknown. EU has its own resources generally.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="3" name="Volume">
+            <subparameter xml:id="volume" number="3" name="Volume" status="accepted" importance="normal">
+                <value>less that 100 words</value>
+            </subparameter>
+        </parameter>
+        <parameter number="4" name="Complexity">
+            <subparameter xml:id="complexity" number="4" name="Complexity" status="accepted" importance="normal">
+                <value>Medium. Embedded clauses but the jargon does not go too deep. You don't have to be a lawyer to understand.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="5" name="Origin">
+            <subparameter xml:id="origin" number="5a" name="Origin" status="accepted" importance="normal">
+                <value>Unknown. Comes from work originally assigned to a real-world human translator, though.</value>
+            </subparameter>
+            <subparameter xml:id="isTranslation" number="5b" name="Is the text a translation?" status="accepted" importance="normal">
+                <value>No</value>
+            </subparameter>
+        </parameter>
+    </section>
+    <section name="A.2. Target-content requirements">
+        <parameter number="6" name="Target language requirements">
+            <subparameter xml:id="targetLanguage" number="6a" name="Target language" status="accepted" importance="normal">
+                <value>en</value>
+            </subparameter>
+            <subparameter xml:id="targetTerminology" number="6b" name="Target terminology" status="accepted" importance="normal">
+                <value>Same as for source</value>
+            </subparameter>
+        </parameter>
+        <parameter number="7" name="Target audience">
+            <subparameter xml:id="targetAudience" number="7" name="Target audience" status="accepted" importance="normal">
+                <value>Same as for source.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="8" name="Target purpose">
+            <subparameter xml:id="targetPurpose" number="8" name="Target purpose" status="accepted" importance="normal">
+                <value>Same as for source.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="9" name="Content correspondence">
+            <subparameter xml:id="contentCorrespondence" number="9" name="Content correspondence" status="accepted" importance="important">
+                <value>Covert: document should appear as though written in target language.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="10" name="Register">
+            <subparameter xml:id="register" number="10" name="Register" status="accepted" importance="normal">
+                <value>Formal</value>
+            </subparameter>
+        </parameter>
+        <parameter number="11" name="File format">
+            <subparameter xml:id="fileFormat" number="10a" name="File format" status="accepted" importance="normal">
+                <value>Plain text, segmented by translation unit.</value>
+            </subparameter>
+            <subparameter xml:id="outputModality" number="10b" name="Output modality" status="accepted" importance="normal">
+                <value>Shown on a webpage.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="12" name="Style">
+            <subparameter xml:id="styleGuide" number="12a" name="Style guide" status="accepted" importance="normal">
+                <value>Unknown</value>
+            </subparameter>
+            <subparameter xml:id="styleRelevance" number="12b" name="Style relevance" status="accepted" importance="normal">
+                <value>Unknown</value>
+            </subparameter>
+        </parameter>
+        <parameter number="13" name="Layout">
+            <subparameter xml:id="layout" number="13" name="Layout" status="accepted" importance="normal">
+                <value>Follow source for segmentation.</value>
+            </subparameter>
+        </parameter>
+    </section>
+    <section name="B. Production tasks">
+        <parameter number="14" name="Typical production tasks">
+            <subparameter xml:id="preparation" number="14a" name="Preparation" status="accepted" importance="normal">
+                <value>The translation process used is unknown.</value>
+            </subparameter>
+            <subparameter xml:id="initialTranslation" number="14b" name="Initial translation" status="accepted" importance="normal">
+                <value>The translation process used is unknown. Was performed by a human translator.</value>
+            </subparameter>
+            <subparameter xml:id="qualityAssurance" number="14c" name="In-process quality assurance" status="accepted" importance="normal">
+                <value>The translation process used is unknown.</value>
+            </subparameter>
+        </parameter>
+    </section>
+    <section name="C. Environment">
+        <parameter number="16" name="Technology">
+            <subparameter xml:id="technology" number="16" name="Technology" status="accepted" importance="normal">
+                <value>The translation environment is unknown.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="17" name="Reference materials">
+            <subparameter xml:id="referenceMaterials" number="17" name="Reference materials" status="accepted" importance="normal">
+                <value>The translation environment is unknown.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="18" name="Workplace requirements">
+            <subparameter xml:id="workplaceRequirements" number="18" name="Workplace requirements" status="accepted" importance="normal">
+                <value>The translation environment is unknown.</value>
+            </subparameter>
+        </parameter>
+    </section>
+    <section name="D. Relationships">
+        <parameter number="19" name="Permissions">
+            <subparameter xml:id="copyright" number="19a" name="Copyright" status="accepted" importance="normal">
+                <value>Creator retains all rights</value>
+            </subparameter>
+            <subparameter xml:id="recognition" number="19b" name="Recognition" status="undetermined" importance="normal">
+                <value>None</value>
+            </subparameter>
+            <subparameter xml:id="restrictions" number="19c" name="Restrictions" status="accepted" importance="normal">
+                <value>Unknown. Released for use on this website as a live example.</value>
+            </subparameter>
+        </parameter>
+        <parameter number="21" name="Expectations">
+            <subparameter xml:id="compensation" number="21a" name="Compensation" status="undetermined" importance="normal">
+                <value>The translation process is unknown.</value>
+            </subparameter>
+            <subparameter xml:id="communication" number="21b" name="Communication" status="undetermined" importance="normal">
+                <value>The translation process is unknown..</value>
+            </subparameter>
+        </parameter>
+    </section>
+</sts>

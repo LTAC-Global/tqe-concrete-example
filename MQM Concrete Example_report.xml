@@ -1,0 +1,254 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+	<fileDesc>
+		<titleStmt>
+			<title>MQM Concrete Example</title>
+		</titleStmt>
+	</fileDesc>
+  </teiHeader>
+  <text>
+   <body>
+	<list>
+		<item n="comment"></item>
+		<item n="keyword"></item>
+	</list>
+	<list>
+		<item n="265">1</item>
+		<item n="266">2</item>
+		<item n="267">3</item>
+		<item n="268">4</item>
+		<item n="269">5</item>
+	</list>
+	<div type="errors">
+	 <div type="error">
+	  <list>
+		<item n="segment">265</item>
+		<item n="target">target</item>
+		<item n="name">organization style</item>
+		<item n="severity">minor</item>
+		<item n="issueReportId">299</item>
+		<item n="startIndex">3</item>
+		<item n="endIndex">21</item>
+	  </list>
+	 </div>
+	 <div type="error">
+	  <list>
+		<item n="segment">265</item>
+		<item n="target">target</item>
+		<item n="name">omission</item>
+		<item n="severity">major</item>
+		<item n="issueReportId">300</item>
+		<item n="startIndex">83</item>
+		<item n="endIndex">93</item>
+	  </list>
+	 </div>
+	 <div type="error">
+	  <list>
+		<item n="segment">266</item>
+		<item n="target">target</item>
+		<item n="name">mistranslation</item>
+		<item n="severity">major</item>
+		<item n="issueReportId">301</item>
+		<item n="startIndex">24</item>
+		<item n="endIndex">31</item>
+	  </list>
+	 </div>
+	 <div type="error">
+	  <list>
+		<item n="segment">267</item>
+		<item n="target">target</item>
+		<item n="name">punctuation</item>
+		<item n="severity">minor</item>
+		<item n="issueReportId">302</item>
+		<item n="startIndex">68</item>
+		<item n="endIndex">68</item>
+	  </list>
+	 </div>
+	 <div type="error">
+	  <list>
+		<item n="segment">268</item>
+		<item n="target">target</item>
+		<item n="name">unidiomatic style</item>
+		<item n="severity">major</item>
+		<item n="issueReportId">303</item>
+		<item n="startIndex">4</item>
+		<item n="endIndex">99</item>
+	  </list>
+	 </div>
+	 <div type="error">
+	  <list>
+		<item n="segment">269</item>
+		<item n="target">target</item>
+		<item n="name">awkward style</item>
+		<item n="severity">minor</item>
+		<item n="issueReportId">304</item>
+		<item n="startIndex">46</item>
+		<item n="endIndex">52</item>
+	  </list>
+	 </div>
+	</div>
+	<div type="metrics">
+	 <div type="metric">
+	  <list>
+		<item n="parent">None</item>
+		<item n="name">Accuracy</item>
+		<item n="description">The target text does not accurately reflect the source text, allowing for any
+      differences authorized by specifications.</item>
+		<note>Most cases of accuracy are addressed by one of the children subtypes listed above.          In Machine Translation literature, this category is typically referred to as       “Adequacy”.</note>
+		<item n="examples"></item>
+		<item n="issueId">accuracy</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">accuracy</item>
+		<item n="name">mistranslation</item>
+		<item n="description">The target content does not accurately represent the source
+        content.</item>
+		<note></note>
+		<item n="examples">A source text states that a medicine should not be administered in doses greater         than 200 mg, but the translation states that it should be administered in doses greater than         200 mg (i.e., negation has been omitted).</item>
+		<item n="issueId">mistranslation</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">accuracy</item>
+		<item n="name">addition</item>
+		<item n="description">The target text includes text not present in the source.</item>
+		<note></note>
+		<item n="examples">A translation includes portions of another translation that were inadvertently         pasted into the document.</item>
+		<item n="issueId">addition</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">accuracy</item>
+		<item n="name">omission</item>
+		<item n="description">Content is missing from the translation that is present in the
+        source.</item>
+		<note></note>
+		<item n="examples">A paragraph present in the source is missing in the translation.</item>
+		<item n="issueId">omission</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">None</item>
+		<item n="name">Linguistic Conventions</item>
+		<item n="description">Errors related to the form or content of a text, irrespective of whether it is a
+      translation or not</item>
+		<note>If an error can be detected only by comparing the source and target, it MUST NOT be       categorized as fluency or any of its children.</note>
+		<item n="examples">A text has errors in it that prevent it from being understood.</item>
+		<item n="issueId">fluency</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">fluency</item>
+		<item n="name">grammar</item>
+		<item n="description">Errors related to the grammar or syntax of the text, other than spelling and
+        orthography</item>
+		<note></note>
+		<item n="examples">An English text reads “The man was seeing the his wife.”</item>
+		<item n="issueId">grammar</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">fluency</item>
+		<item n="name">punctuation</item>
+		<item n="description">Punctuation is used incorrectly (for the locale or style).</item>
+		<note>In most cases it is not necessary to distinguish this error type from         typography.</note>
+		<item n="examples">An English text uses a semicolon where a comma should be used. A two-digit year         reference begins with an open single quote instead of a close single quote         (apostrophe).</item>
+		<item n="issueId">punctuation</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">fluency</item>
+		<item n="name">whitespace</item>
+		<item n="description">Whitespace is used incorrectly.</item>
+		<note></note>
+		<item n="examples">A document uses a string of space characters instead of tabs. Extra spaces are added         at the start of a string.</item>
+		<item n="issueId">whitespace</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">fluency</item>
+		<item n="name">spelling</item>
+		<item n="description">Errors related to spelling of words</item>
+		<note></note>
+		<item n="examples">The German word Zustellung is spelled Zustetlugn.</item>
+		<item n="issueId">spelling</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">None</item>
+		<item n="name">Style</item>
+		<item n="description">The text has stylistic problems.</item>
+		<note></note>
+		<item n="examples">The translation of a light-hearted and humorous advertising campaign is in a serious       and “heavy” style even though specifications said it should match the style of the source       text.</item>
+		<item n="issueId">style</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">style</item>
+		<item n="name">unidiomatic style</item>
+		<item n="description">The content is grammatical, but not idiomatic.</item>
+		<note></note>
+		<item n="examples">The following text appears in an English translation of a German letter: “We thanked         him with heart” where “with heart” is an understandable, but non-idiomatic rendering, better         stated as “heartily”.</item>
+		<item n="issueId">unidiomatic</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">style</item>
+		<item n="name">awkward style</item>
+		<item n="description">A text is written with an awkward style.</item>
+		<note></note>
+		<item n="examples">A text is written with many embedded clauses and an excessively wordy style. While         the meaning can be understood, the text is very awkward and difficult to follow.</item>
+		<item n="issueId">awkward</item>
+	  </list>
+	 </div>
+	 <div type="metric">
+	  <list>
+		<item n="parent">style</item>
+		<item n="name">organization style</item>
+		<item n="description">The text violates company/organization-specific style guidelines.</item>
+		<note></note>
+		<item n="examples">Company style states that passive sentences may not be used, but the text uses         passive sentences.</item>
+		<item n="issueId">company-style</item>
+	  </list>
+	 </div>
+	</div>
+	<linkGrp type="translation">
+		<link target =" #x1 #y1 "/>
+		<link target =" #x2 #y2 "/>
+		<link target =" #x3 #y3 "/>
+		<link target =" #x4 #y4 "/>
+		<link target =" #x5 #y5 "/>
+	</linkGrp>
+	<div type="volume" xml:id="x">
+	  <p>
+		<s xml:id="x1">Le Parlement européen a adopté, le 11 novembre 2015, une résolution sur la réforme de la loi électorale de l’Union européenne.</s>
+		<s xml:id="x2">Plusieurs principes ont alors été retenus:</s>
+		<s xml:id="x3">(1) l’organisation des élections sur la base d’un scrutin de liste ou d’un vote unique transférable de type proportionnel;</s>
+		<s xml:id="x4">(2) la suppression du cumul de tout mandat national avec celui de député européen;</s>
+		<s xml:id="x5">(3) la liberté pour les États membres de constituer des circonscriptions au niveau national;</s>
+	  </p>
+	</div>
+	<div type="volume" xml:id="y">
+	  <p>
+		<s xml:id="y1">On November 11th, 2015, the European Parliament adopted a resolution on the reform of the laws of the European Union.</s>
+		<s xml:id="y2">Several principles were retained:</s>
+		<s xml:id="y3">(1) conducting elections on the basis of proportional representation; using a list system or a single transferable ballot system;</s>
+		<s xml:id="y4">(2) prohibiting the cumulation of any national office with one as Member of the European Parliament;</s>
+		<s xml:id="y5">(3) upholding the freedom of Member States to draw up constituencies at national level;</s>
+	  </p>
+	</div>
+   </body>
+  </text>
+</TEI>

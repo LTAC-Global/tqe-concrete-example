@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<issues neutralSeverityMult="0" minorSeverityMult="1" majorSeverityMult="5" criticalSeverityMult="25" maximumScoreValue="100"
+cutscore="80" scoringModel="not-calibrated"  referenceWordCount='1000'>
+  <issue type="accuracy" level="0" display="yes">
+    <issue type="mistranslation" level="1" display="yes"/>
+    <issue type="addition" level="1" display="yes" />
+    <issue type="omission" level="1" display="yes" />
+  </issue>
+  <issue type="fluency" level="0" display="yes">
+    <issue type="grammar" level="1" display="yes"/>
+    <issue type="punctuation" level="1" display="yes" />
+    <issue type="whitespace" level="1" display="yes" />
+    <issue type="spelling" level="1" display="yes"/>
+  </issue>
+  <issue type="style" level="0" display="yes">
+    <issue type="unidiomatic" level="1" display="yes" />
+    <issue type="awkward" level="1" display="yes" />
+    <issue type="company-style" level="1" display="yes" />
+  </issue>
+</issues>
