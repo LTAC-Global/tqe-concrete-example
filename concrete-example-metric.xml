@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <issues neutralSeverityMult="0" minorSeverityMult="1" majorSeverityMult="5" criticalSeverityMult="25" maximumScoreValue="100"
-cutscore="80" scoringModel="not-calibrated"  referenceWordCount='1000'>
+cutscore="80" scoringModel="not-calibrated"  referenceWordCount="1000" acceptablePenaltyPoints="40">
   <issue type="accuracy" level="0" display="yes">
     <issue type="mistranslation" level="1" display="yes"/>
     <issue type="addition" level="1" display="yes" />
