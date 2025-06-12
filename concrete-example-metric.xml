@@ -9,7 +9,6 @@ cutscore="80" scoringModel="not-calibrated"  referenceWordCount='1000'>
   <issue type="fluency" level="0" display="yes">
     <issue type="grammar" level="1" display="yes"/>
     <issue type="punctuation" level="1" display="yes" />
-    <issue type="whitespace" level="1" display="yes" />
     <issue type="spelling" level="1" display="yes"/>
   </issue>
   <issue type="style" level="0" display="yes">
